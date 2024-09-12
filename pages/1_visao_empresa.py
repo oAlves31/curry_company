@@ -287,7 +287,7 @@ df1 = df1.loc[linhas_selecionadas, :]
 # Layout
 # ===========================================
 
-tab1, tab2, tab3 = st.tabs( ['Visão Gerencial', 'Visão Tática', 'Visão Geogrãfica'] )
+tab1, tab2, tab3 = st.tabs( ['Visão Gerencial', 'Visão Tática', 'Visão Geográfica'] )
 
 with tab1:
     with st.container():
