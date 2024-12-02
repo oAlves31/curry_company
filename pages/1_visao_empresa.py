@@ -142,7 +142,7 @@ def country_maps( df1 ):
 #===========================Início da Lógica do Código======================================
 
 # Import dataset
-df = pd.read_csv( '../dataset/train.csv' )
+df = pd.read_csv( 'dataset/train.csv' )
 
 #Limpando os dados
 df1 = clean_code( df )
